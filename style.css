@@ -593,7 +593,8 @@ footer {
 @media (min-width: 1024px) and (min-height: 768px) /* responsive */ {
     .form {
         justify-content: space-around;
-        width: 73%;
+        width: 70%;
+        heigth: 90%;
         justify-self: center;
     }
     .form > button {
@@ -620,7 +621,7 @@ footer {
         font-size: 16px;
     }
     .form {
-        width: 82%;
+        width: 71%;
     }
 }
 @media (min-width: 1366px) and (min-height: 768px),
@@ -628,15 +629,27 @@ footer {
     html {
         font-size: 15px;
     }
+    .form {
+        width: 66%;
+        height: 95%;
+    }
 }
 @media (min-width: 1600px) and (min-height: 795px) /* responsive */ {
     html {
-        font-size: 18px;
+        font-size: 29px;
+    }
+    .form {
+        width: 65%;
+        height: 90%;
     }
 }
 @media (min-width: 1920px) and (min-height: 1080px) /* responsive */ {
     html {
         font-size: 22px;
+    }
+    .form {
+        width: 66%;
+        height: 90%;
     }
     .top-desc p {
         line-height: 35px;
