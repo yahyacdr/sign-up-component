@@ -636,7 +636,7 @@ footer {
 }
 @media (min-width: 1600px) and (min-height: 795px) /* responsive */ {
     html {
-        font-size: 29px;
+        font-size: 23px;
     }
     .form {
         width: 65%;
